@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<title>Creating a list sheet</title>
+		<link rel="stylesheet" href="../style.css">
+	</head>
+	<body id='body'>
+		<div class='contDecription'>
+			<h1>
+				Creating a list sheet
+			</h1>
+			<p>
+				Description: create a shopping list or price list. The table can be changed.
+			</p>
+		</div>
+		<div class='contMiddle'>
+			<input class='input' id='inpName' placeholder='Enter the product name'>
+			<input class='input' id='inpPrice' placeholder='Enter the product price'>
+			<input class='input' id='inpQuan' placeholder='Enter the quantity of the product'>
+			<input class='button' id='save' value='Save' type='submit'>
+		</div>
+		<table id='tableOutList'></table>
+		<p id='sumQuan'></p>
+		<script src='./script.js'></script>
+		<script src='../scriptAddGoToMain.js'></script>
+	</body>
+</html>

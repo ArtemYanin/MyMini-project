@@ -1,0 +1,271 @@
+body {
+	margin: 0;
+	background-color: #111;
+	color: #E3B873;
+}
+
+body > div {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contDecription {
+	border: 5px solid #E3B873;
+	border-radius: 30px;
+	max-width: 1000px;
+	
+	margin-top: 150px;
+}
+
+.contMiddle {
+	margin-top: 30px;
+}
+
+#input, .input, .csIzmInp {
+	margin-right: 55px;	
+	border: 0;
+	border-bottom: 1px solid rgba(54, 54, 54, 0.4);
+	padding-bottom: 8px;	
+	font-size: 14px;
+	line-height: 23px;	
+	background-color: inherit;
+	color: #FFF;
+}
+
+.button {
+	background: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+	border: 0;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 13px 33px;
+	cursor: pointer;
+}
+
+.contMiddle2 {
+	margin-top: 30px;
+}
+
+#timerP {
+	font-size: 100px;
+	margin-top: 10px;
+}
+
+/* for "Game - numbers in order" */
+
+.contMiddle2 > table {
+	margin: 0 auto;
+	color: #FFF;
+	font-size: 50px;
+	
+	border-width: 0;
+}
+
+.contMiddle2 > table > tr > td{
+	padding: 10px;
+}
+
+.active {
+	background-color: #E3B873;
+	color: #000;
+}
+
+.contTable {
+	margin-top: -50px;
+}
+
+/* for "Calculator" */
+
+.contCalc {
+	width: fit-content;
+	border-radius: 15px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+#contCalcInpDel {
+	display: flex;
+}
+
+#contCalcInpDel > #input {
+	margin-right: 5px;
+	border: 1px solid rgba(54, 54, 54, 0.5);
+	padding:0;
+}
+
+#buttonC, #butArrLeft {
+	padding: 5px;
+	font-size: 20px;
+}
+
+#contCalcInpDel > #butArrLeft {
+	margin-right: 5px;
+}
+
+#tableCalc {
+	border: 1px solid rgba(54, 54, 54, 0.5);
+	margin-top: 5px;
+}
+
+/* for "Creating a list sheet" */
+
+#tableOutList {
+	border: 5px solid #E3B873;
+	border-radius: 20px;
+	margin: 0 auto;
+    padding: 15px;
+	display: none;
+	margin-top: 20px;
+	width: 1000px;
+}
+
+#tableOutList > tr > div {
+	width: 200px;
+}
+
+#tableOutList > tr > input {
+	margin-right: -70px;
+}
+
+.csIzmTd, .suum {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.suum {
+	color: #FFF;
+}
+
+#sumQuan {
+	font-size: 30px;
+    text-decoration: underline;
+	text-align: center;
+}
+
+/* for "Screen keyboard" */
+
+.contKeybInpDel > #input {
+	width: 630px;
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.tableKeyboardTd {
+	padding: 10px;
+	font-size: 30px;
+	
+	display: inline;
+	margin: 5px;
+}
+
+#tableKeyboard > tr {
+	display: flex;
+	justify-content: space-between;
+	
+	border: 1px solid rgba(54, 54, 54, 0.3);
+}
+
+/* for "Question - Answer" */
+
+.contQuestion {
+	padding: 15px;
+	width: fit-content;
+	border-radius: 20px;
+}
+
+.contQuestion-Ques {
+	margin-bottom: 15px;
+}
+
+.contQuestion-Ques > .button {
+	padding: 13px;
+	margin-left: 20px;
+}
+
+.button[disabled] {
+	background-color: #54452d;
+	color: #222;
+}
+
+#contAnwers {
+	list-style: none;
+}
+
+#contAnwers > li {
+	margin: 5px;
+}
+
+/* for "TIC-TAC-toe-game" */
+
+#tableTICTAC {
+	border: 5px solid #FFF;
+	margin: 40px auto;
+}
+
+#tableTICTAC > tr > td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #FFF;
+	text-align: center;
+	font-size: 35px;
+}
+
+.contDivGame {
+	font-size: 30px;
+}
+
+.contSpanGame, #tableTICTAC > tr > td {
+	font-family: monospace;
+}
+
+/* for "Creating a to-do list" */
+
+#DivInp > #input {
+	margin: 40px;
+}
+
+.nameInpIzm {
+    width: 300px;
+	border: 3px solid #E3B873;
+	border-radius: 5px;
+	font-size: 28px;
+	margin: 0 5px;
+}
+
+input.nameInpIzm {
+	background-color: #111;
+	color: #E3B873;
+	display: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.newDivCont {
+	display: flex;
+	justify-content: center;
+}
+
+/* for "index" */
+
+.MiniProject_contButton {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.MiniProject_button {
+    text-decoration: none;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.MiniProject_contButton > h1 {
+	display: block;
+}
+
+/* for "Go to main" */
+
+.buttonGoToMain {
+	
+}

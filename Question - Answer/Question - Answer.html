@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<title>Question - Answer</title>
+		<link rel="stylesheet" href="../style.css">
+	</head>
+	<body>
+		<div class='contDecription'>
+			<h1>
+				Question - Answer		
+			</h1>
+			<p>
+				Script showing the work of the questionnaire
+				(test) with the available ready-made answers.
+			</p>
+		</div>
+		<div class='contMiddle contDecription contQuestion'>
+			<div class='contQuestion-Ques'>
+				<span id='span'></span>
+				<button class='button' id='a2'>next question</button>
+			</div>
+			<div>
+				<input id='input' placeholder='Enter an answer'>
+				<input type='submit' class='button' id='button' value='Сheck'>
+			</div>
+		</div>
+		<div id='awswerDiv' style='display: none'>
+			<ul id='contAnwers'> Результаты отпроса:</ul>
+		</div>
+		<script src='./script.js'></script>
+		<script src='../scriptAddGoToMain.js'></script>
+	</body>
+</html>
